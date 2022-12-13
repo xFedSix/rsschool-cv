@@ -6,18 +6,11 @@
 .container {
     max-width: 1440px;
     margin: 0 auto;
-    /* min-height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; */
-    
-}
-body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
+}
 
 header {
     display: flex;
@@ -55,4 +48,8 @@ footer {
 }
 footer img {
     width: 200px;
+}
+
+footer p {
+    font-size: 50px;
 }
