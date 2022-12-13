@@ -16,6 +16,17 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-image: url("background_header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact_me {
+    color: rgb(180, 180, 245);
+    font-size: 40px;
+}
+header span {
+    color: rgb(180, 180, 245);
+
 }
 header ul {
     display:inline-flex;
@@ -27,19 +38,35 @@ header ul {
 header li {
     padding: 20px;
 }
-header i {
-    width: 3em;
+h1 {
+    color: rgb(180, 180, 245);
+    font-size: 60px;
 }
 .menu {
     display: flex;
     flex-direction: column;
     align-items: center;    
 }
-
+.summary {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.info-blocks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
 .projects a {
     text-decoration: none;
 }
-
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url(background_main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 footer {
     display: flex;
     align-items: center;
