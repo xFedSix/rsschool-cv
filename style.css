@@ -6,4 +6,53 @@
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    /* min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header ul {
+    display:inline-flex;
+    align-items: center;
+    list-style-type: none;
+    
+    
+}
+header li {
+    padding: 20px;
+}
+header i {
+    width: 3em;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.projects a {
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-shrink: 0;
+}
+footer img {
+    width: 200px;
 }
