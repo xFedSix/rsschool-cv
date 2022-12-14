@@ -78,7 +78,21 @@
               id="code"
               cols="50"
               rows="25"
-            ></textarea>
+              readonly
+            >
+              let harryPotterTeam = ["Albus", "Hermione", "Ronald", "Draco", "Neville"];          
+              let teamA = harryPotterTeam.filter((item) => {
+                  return item.includes("a");
+              })
+            
+              let teamH = harryPotterTeam.filter((item) => {
+                  return item.includes("H");
+               })
+              console.log(harryPotterTeam);
+              console.log(teamA);
+              console.log(teamH);
+              </textarea
+            >
           </div>
           <div class="courses block">
             <h2>Courses</h2>

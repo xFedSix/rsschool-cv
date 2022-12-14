@@ -89,11 +89,11 @@ h1 {
     flex-direction: column;
 }
 .textArea {
-    
     border: 2px solid rgb(216, 216, 192);
     border-radius: 20px;
     margin: 20px 20px 0 20px;
     background: linear-gradient(rgb(143, 218, 243), rgb(255, 255, 255));
+    
 }
 .projects a {
     text-decoration: none;
