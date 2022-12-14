@@ -4,19 +4,20 @@
     box-sizing: border-box;
 }
 .container {
-    max-width: 1440px;
+    max-width: 100%;
     margin: 0 auto;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-image: url("background_header.jpg");
+    background: linear-gradient(blue, rgb(255, 255, 255));
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -25,7 +26,7 @@ header {
     font-size: 40px;
 }
 header span {
-    color: rgb(180, 180, 245);
+    color: rgb(57, 57, 236);
 
 }
 header ul {
@@ -39,7 +40,7 @@ header li {
     padding: 20px;
 }
 h1 {
-    color: rgb(180, 180, 245);
+    color: rgb(75, 75, 155);
     font-size: 60px;
 }
 .menu {
@@ -50,14 +51,7 @@ h1 {
 .summary {
     text-align: center;
     padding-bottom: 50px;
-}
-.info-blocks {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
-}
-.projects a {
-    text-decoration: none;
+    font-size: 40px;
 }
 .info {
     display: flex;
@@ -66,12 +60,61 @@ h1 {
     background-image: url(background_main.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100vh;
 }
+.info-blocks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    min-height: 100vh;
+    padding: 0 40px 40px 40px;
+    
+    
+}
+.info-blocks h2 {
+    color: rgb(91, 102, 247);
+    font-size: 40px;
+    text-align: center;
+}
+.block {
+    border: 2px solid beige;
+    border-radius: 20px;
+    padding: 20px 0 20px 0;
+
+    
+}
+.code {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.textArea {
+    
+    border: 2px solid rgb(216, 216, 192);
+    border-radius: 20px;
+    margin: 20px 20px 0 20px;
+    background: linear-gradient(rgb(143, 218, 243), rgb(255, 255, 255));
+}
+.projects a {
+    text-decoration: none;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+ul {
+    padding-left: 70px;
+    font-size: 40px;
+}
+
+
 footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-shrink: 0;
+    padding: 40px;
+    background: linear-gradient(lightblue, rgb(255, 255, 255));
 }
 footer img {
     width: 200px;
