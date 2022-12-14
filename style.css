@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth; 
+  }
 .container {
     max-width: 100%;
     margin: 0 auto;
@@ -15,13 +18,23 @@
 
 header {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
     background: linear-gradient(blue, rgb(255, 255, 255));
     background-repeat: no-repeat;
     background-size: cover;
 }
-.contact_me {
+.about_me {
+    display: flex;
+    align-items: center;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.contacts_me {
     color: rgb(180, 180, 245);
     font-size: 40px;
 }
@@ -33,8 +46,6 @@ header ul {
     display:inline-flex;
     align-items: center;
     list-style-type: none;
-    
-    
 }
 header li {
     padding: 20px;
@@ -43,12 +54,11 @@ h1 {
     color: rgb(75, 75, 155);
     font-size: 60px;
 }
-.menu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;  
-
+nav a {
+    text-decoration: none;
+    font-size: medium;
 }
+
 .summary {
     text-align: center;
     padding-bottom: 50px;
